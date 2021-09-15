@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="RobotTests.cpp" />
+    <ClCompile Include="BoardTests.cpp" />
+    <ClCompile Include="SimulatorTests.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="boost">
+      <UniqueIdentifier>{8dfa056a-5183-4e80-80e6-ff03b825afcc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="boost\ut.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
